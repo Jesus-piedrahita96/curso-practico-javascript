@@ -48,3 +48,7 @@ console.log(
 )
 
 console.groupEnd()
+
+function saludar(){
+  console.log("hola amigos")
+}
