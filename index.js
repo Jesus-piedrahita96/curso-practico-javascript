@@ -16,6 +16,7 @@ const ladoTriangulo1 = 6
 const ladoTriangulo2 = 6
 const baseTriangulo = 4
 const alturaTriangulo = 5.5
+let encapsular
 
 console.log(
   "Los lados del triangulo miden: "
