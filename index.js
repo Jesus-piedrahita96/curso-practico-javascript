@@ -10,7 +10,7 @@ const areaCuadrado = ladoCuadrado * ladoCuadrado
 console.log("el area es de: "+areaCuadrado+"cm2")
 console.groupEnd()
 
-// triangulo 
+//! triangulo
 console.group("Trinagulo")
 const ladoTriangulo1 = 6
 const ladoTriangulo2 = 6
@@ -53,3 +53,28 @@ console.groupEnd()
 function saludar(){
   console.log("hola amigos")
 }
+
+//todo: codigo nuevo
+
+let cuadricula = [
+  {
+    name: 'jesus',
+    edad: 26
+  },
+  {
+    name: 'mauro',
+    edad: 29
+  }
+]
+console.log(cuadricula)
+
+const imprimirArry = array =>{
+
+  for (let element of array){
+    for(let object of element){
+      console.log(object)
+    }
+  }
+}
+
+imprimirArry(cuadricula)
